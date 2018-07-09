@@ -1,0 +1,21 @@
+{
+  "apps": [{
+    "name": "Zira",
+    "script": "./Cluster.js",
+    "exec_interpreter": "node",
+    "env": {
+      "PREFIX": "Connect Roles",
+      "TOKEN": "NDY1NzkzMjYwMTk1OTM4MzE1.DiS3RA.1CZbGQrIGHJqU9Y4oyTEGiKEDQY",
+      "OWNER": "@Evo Senpai!#7358",
+      "DB_USER": "zira",
+      "DB_PASS": "zira123",
+      "DB_HOST": "mongo host/collection",
+      "WEBHOOK_ID": "webhook id for guild logging",
+      "WEBHOOK_TOKEN": "webhook token for guild logging",
+      "TRELLO_KEY":"trello key",
+      "TRELLO_TOKEN":"trello token",
+      "SHARDS": 1,
+      "CLUSTERS": 1
+    }
+  }]
+}
